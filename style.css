@@ -1,0 +1,95 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+  :root {
+      --main-color: #01a3a4;
+      --main-color-light: #00d2d3;
+      --accent-color: #341f97;
+      --accent-color-light: #5f27cd;
+
+  }
+
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: 'Tilt Neon', cursive;
+      background-image: linear-gradient(to bottom right, var(--main-color), var(--accent-color));
+      background-repeat: no-repeat;
+      min-height: 1000px;
+  }
+
+  .main-title {
+      font-size: 3rem;
+      color: white;
+  }
+
+  .header,
+  .gorev-form {
+      min-height: 20vh;
+      margin: .5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .form-item {
+      padding: .5rem;
+      font-size: 1.5rem;
+      border: none;
+      background-color: white;
+      outline: none;
+  }
+
+  .btn-gorev-ekle {
+      color: var(--accent-color-light);
+      cursor: pointer;
+
+  }
+
+  .gorev-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .gorev-listesi {
+      list-style: none;
+      min-width: 40%;
+  }
+  .gorev-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.2rem;
+    background-color: #e36319;
+    transition: .5s ease-in-out;
+
+  }
+  .gorev-tanim{
+    flex: 1;
+    padding: .9rem;
+  }
+.gorev-btn{
+    background-color: rgb(31, 116, 31);
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.gorev-btn-sil{
+    background-color: rgb(196, 22, 22);
+}
+.gorev-tamamlandi{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+.fa-solid{
+    pointer-events:  none;
+}
+.kaybol{
+    transform: scale(0.5);
+}
